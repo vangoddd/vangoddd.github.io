@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins/);
+}
+
+@font-face {
+    font-family: Noto;
+    src: url(/fonts/Noto_Serif/);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #cccccc;
+    height: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 5%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li#date{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+li a.activeNavBar{
+    background-color: #4e4e4e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+img.bg{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+    top: 0%;
+}
+
+div.sticky{
+    width: 100%;
+    height: 30vh;
+    top: 0;
+}
+
+div.content{
+    background-color: #cccccc;
+    padding-top:0.2%;
+    margin-top: 20%;
+    margin: 0% 22% 0 22%;
+    min-height: 51vh;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.text{
+    text-align: left;
+    padding: 10px 22% 30px 22%;
+    font-family: Roboto;
+    font-size: 1.3em;
+    color: #222222;
+}
+
+p{
+    text-indent: 1.6em;
+}
+
+div.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#333;
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Noto, sans-serif;
+    position: absolute;
+    height: 2rem;
+    padding-top: 1em;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: calc(25px + 1vw);
+    color: #464646;
+    text-align: center;
+}
+
+h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #464646;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    background-color: #bdbdbd;
+    min-height: 100%;
+    height: auto;
+}
+
+#page-container {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+}
+  
+.imgcontainer{
+    background-color: #bdbdbd;
+    padding: 15px 15px 15px 15px;
+    margin-left: auto; 
+    margin-right: auto;
+    display:block;
+    width: 80%;
+}
